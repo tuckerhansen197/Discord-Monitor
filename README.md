@@ -12,15 +12,12 @@ pip install discord.py requests
 
 ### 2. Get your Discord token
 
-This runs under your own Discord account — no bot needed. You just need your account token.
+1. Go to https://discord.com/developers/applications
+2. Click **New Application** → give it a name → **Create**
+3. Go to **Bot** in the left sidebar
+4. Click **Reset Token** → copy the token
 
-1. Open Discord in your **browser** (not the desktop app)
-2. Press `F12` to open Developer Tools → go to the **Network** tab
-3. Type anything in any Discord channel
-4. In the Network tab, click on one of the requests to `discord.com`
-5. Under **Request Headers**, find `Authorization` — that value is your token
-
-> **Keep your token private.** Anyone with it can access your Discord account. Never share it or post it publicly.
+> **Keep your token private.** Anyone with it can access your account. Never share it or post it publicly.
 
 ### 3. Create a Telegram bot
 
